@@ -1,0 +1,59 @@
+body {
+    background-image: url('BG.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#GT1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    z-index: 1000;
+}
+
+#a1 {
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    transition: 0.5s;
+    color: aliceblue;
+    text-align: center;
+}
+
+#a1:hover {
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 3px solid red;
+}
+
+.B,
+.C {
+    margin: 100px auto;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+* {
+    box-sizing: 0;
+    margin: 0;
+}
+
+#gif {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
